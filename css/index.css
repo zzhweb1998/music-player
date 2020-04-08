@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+.header{
+    width: 100%;
+    height: 48px;
+}
+.header .logo a {
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    color: #2c2c2c;
+    width: 200px;
+    height: 48px;
+    background: url("../images/m_logo.png") no-repeat 0 0;
+    padding-left: 50px;
+    margin-left: 50px;
+    color: #fff;
+    opacity: 0.5;
+}
+.header .logo a:hover{
+    opacity: 1;
+}
+
+.content{
+    width: 100%;
+    height: 460px;
+}
+.content .content_in{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.content_in .content_left{
+    float: left;
+    width: 800px;
+    height: 100%;
+}
+.content_left .content_top{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+}
+.content_left .content_list{
+    width: 100%;
+    height: 410px;
+    overflow: auto;
+}
+.content_list li{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    user-select: none;
+}
+.content_list li div{
+    float: left;
+    color: rgba(255,255,255,0.5);
+    line-height: 50px;
+}
+.content_list .list_check{
+    width: 50px;
+    height: 100%;
+    text-align: center;
+}
+.content_list .list_check i{
+    display: inline-block;
+    opacity: 0.5;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+}
+.content_list .list_checked i{
+    background: url("../images/gouxuan.png") no-repeat 0 0;
+    opacity: 1;
+}
+.content_list .list_number{
+    width: 45px;
+    height: 100%;
+    text-indent: 10px;
+}
+.content_list .list_number1{
+    color: transparent !important;
+    background: url("../images/yinyue.png") no-repeat 1px 12px !important;
+}
+.content_list .list_name{
+    width: 50%;
+    height: 100%;
+}
+.list_name .list_menu{
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+    display: none;
+}
+.list_menu a{
+    display: inline-block;
+    opacity: 0.5;
+    width: 38px;
+    height: 38px;
+}
+.list_menu a:hover{
+    opacity: 1;
+}
+.list_menu a:nth-child(1){
+    background: url("../images/shoucang.png") no-repeat 0 0;
+}
+.list_menu a:nth-child(2){
+     background: url("../images/bofang1.png") no-repeat 0 0;
+     padding-top: 5px;
+ }
+.list_menu .list_menu_play1{
+    background: url("../images/zanting1.png") no-repeat 0 0 !important;
+}
+.list_menu .list_menu_shoucang1{
+    background: url("../images/shoucang1.png") no-repeat 0 0 !important;
+}
+.content_list .list_singer{
+    width: 20%;
+    height: 100%;
+}
+.content_list .list_time a{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: url("../images/shanchu.png") no-repeat 0 0;
+    float: left;
+    margin-top: 10px;
+    display: none;
+    opacity: 0.5;
+}
+.content_list .list_time a:hover{
+    opacity: 1;
+}
+.content_in .content_right{
+    float: right;
+    width: 400px;
+    height: 100%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.content_right .song_info{
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    line-height: 30px;
+}
+.song_info .song_info_pic{
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    text-align: left;
+}
+.song_info div a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+.song_info div a:hover{
+    opacity: 1;
+}
+.content_right .song_lyric_container{
+    margin-top: 30px;
+    height: 150px;
+    overflow: hidden;
+}
+.content_right .song_lyric{
+    text-align: center;
+}
+.content_right .song_lyric li{
+    list-style: none;
+    line-height: 30px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+}
+.content_right .song_lyric .cur{
+    color: #31c27c;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.footer .footer_in{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.footer_in a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.footer_in .music_pre{
+    width: 52px;
+    height: 48px;
+    background: url("../images/shangyishou .png") no-repeat 0 0;
+}
+.footer_in .music_play{
+    width: 52px;
+    height: 48px;
+    background: url("../images/bofang.png") no-repeat 0 0;
+}
+.footer_in .music_play1{
+    width: 52px;
+    height: 48px;
+    background: url("../images/zanting.png") no-repeat 0 0 !important;
+}
+.footer_in .music_next{
+    width: 52px;
+    height: 48px;
+    background: url("../images/xiayishou.png") no-repeat 0 0;
+}
+.footer_in .music_progress_info{
+    display: inline-block;
+    width: 540px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.music_progress_info .music_progress_top{
+    width: 100%;
+    height: 30px;
+}
+.music_progress_top .music_progress_name{
+    float: left;
+    opacity: 0.5;
+}
+.music_progress_top .music_progress_name:hover{
+    opacity: 1;
+}
+.music_progress_top .music_progress_time{
+    float: right;
+    opacity: 0.5;
+}
+.music_progress_info .music_progress_bar{
+    width: 100%;
+    height: 4px;
+    background: rgba(255,255,255,0.5);
+    margin-top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.music_progress_bar .music_progress_line{
+    width: 0px;
+    height: 100%;
+    background: #fff;
+}
+.music_progress_line .music_progress_dot{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.footer_in .music_mode{
+    width: 52px;
+    height: 48px;
+    background: url("../images/xunhuanbofang.png") no-repeat 0 0;
+}
+.footer_in .music_mode1{
+    width: 52px;
+    height: 48px;
+    background: url("../images/suijibofang.png") no-repeat 0 0;
+}
+.footer_in .music_mode2{
+    width: 52px;
+    height: 48px;
+    background: url("../images/danquxunhuan.png") no-repeat 0 0;
+}
+.footer_in .music_del{
+    width: 52px;
+    height: 48px;
+    background: url("../images/del.png") no-repeat 0 0;
+}
+.footer_in .music_voice_info{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+    position: relative;
+}
+.music_voice_info .music_voice_icon{
+    width: 52px;
+    height: 48px;
+    background: url("../images/shengyin.png") no-repeat 0 0;
+    position: absolute;
+    left: -25px;
+    top: -15px;
+}
+.music_voice_info .music_voice_icon1{
+    width: 52px;
+    height: 48px;
+    background: url("../images/shengyinguanbi.png") no-repeat 0 0;
+    position: absolute;
+    left: -25px;
+    top: -15px;
+}
+.music_voice_info .music_voice_bar{
+    width: 140px;
+    height: 4px;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    cursor: pointer;
+}
+.music_voice_bar .music_voice_line{
+    width: 140px;
+    height: 100%;
+    background: #fff;
+}
+.music_voice_line .music_voice_dot{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+    background: #fff;
+    top: -5px;
+    left: 140px;
+}
+.mask_bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: url("../images/jieyi.png");
+    background-repeat: no-repeat !important;
+    background-position: 0 0 !important;
+    background-size: cover !important;
+    filter: blur(200px);
+}
+.mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.35);
+}
+._mCS_1 .mCSB_scrollTools .mCSB_dragger_bar{
+    width: 16px;
+}
